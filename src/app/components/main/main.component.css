@@ -1,0 +1,22 @@
+h1 {
+  padding: 29px;
+  text-align: center;
+  font-family: papyrus;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#carouselExampleInterval {
+  margin: auto;
+  width: 600px;
+  height: 650px;
+}
+
+#logo-car {
+  width: 40%
+}

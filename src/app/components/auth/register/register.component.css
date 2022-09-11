@@ -1,0 +1,61 @@
+
+.btn {
+  margin-top: 15px;
+  border-radius: 10%;
+  background-color: #4C2727;
+  color: #D9D9D9;
+  width: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 3px solid #067D71;
+}
+.btn:hover {
+  background-color: #067D71;
+  color: #D9D9D9;
+}
+
+.container {
+  background-color: #1D1E22;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form {
+  padding-top: 10px;
+  text-align: center;
+  background-image: url('../../../../assets/images/bglogin.jpg');
+  padding-bottom: 50px;
+  padding-top: 50px;
+  height: 410px;
+}
+.form:hover{
+  color:#067D71;
+}
+
+#name {
+  margin: 10px;
+  text-align: center;
+}
+
+#username {
+  margin: 10px;
+  text-align: center;
+}
+
+#email {
+  margin: 10px;
+  text-align: center;
+}
+
+#password {
+  margin: 10px;
+  text-align: center;
+}
+
+#bio {
+  margin: 10px;
+  text-align: center;
+}

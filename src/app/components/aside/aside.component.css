@@ -1,0 +1,19 @@
+@media (max-width: 700px) {
+  .map {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+
+  }
+
+  #map {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+  }
+
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

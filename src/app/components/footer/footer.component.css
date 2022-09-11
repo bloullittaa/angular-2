@@ -1,0 +1,25 @@
+footer {
+  height: 50px;
+  background-color: #1e1e26;
+  color: #c2c2c3;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.fa-brands {
+  color: #c2c2c3;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+}

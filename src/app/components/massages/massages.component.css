@@ -1,0 +1,71 @@
+h2 {
+  font-family: papyrus;
+  margin-top: 30px;
+}
+
+h4 {
+  font-family: papyrus;
+  margin-top: 200px;
+  text-align: center;
+
+}
+
+h3 {
+  font-family: papyrus;
+  margin-top: 200px;
+  text-align: center;
+
+}
+
+.tuin {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-responsive {
+  margin-bottom: 40px;
+}
+
+#brain {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.text-marge {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.text-marge2 {
+  margin-left: 30px;
+
+}
+
+@media (min-width: 300px)and (max-width: 780px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: auto;
+
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
+
+
+/* .container
+{
+  dis
+} */
