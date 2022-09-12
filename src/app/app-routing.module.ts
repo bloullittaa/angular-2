@@ -18,6 +18,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
 
+
 export const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'Main', component: MainComponent, pathMatch: 'full' },
@@ -26,14 +27,15 @@ export const routes: Routes = [
   { path: 'containers', component: ContainerComponent },
   { path: 'aside', component: AsideComponent },
   { path: 'aside-left', component: AsideLeftComponent },
- { path: 'login', component: LoginComponent, pathMatch: 'full' },
+  { path: 'login', component: LoginComponent, pathMatch: 'full' },
   { path: 'register', component: RegisterComponent, pathMatch: 'full' },
-  { path: '**', component: HomeComponent },
   { path: 'navbar', component: NavbarComponent, pathMatch: 'full' },
+  { path: 'about', component: AboutComponent, pathMatch: 'full' },
   { path: 'tarifs', component: TarifsComponent, pathMatch: 'full' },
   { path: 'contact', component: ContactComponent, pathMatch: 'full' },
   { path: 'massages', component: MassagesComponent, pathMatch: 'full' },
   { path: 'yoga', component: YogaComponent, pathMatch: 'full' },
+  { path: '**', component: HomeComponent },
 ];
 @NgModule({
   declarations: [],
