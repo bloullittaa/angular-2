@@ -20,6 +20,7 @@ import { MassagesComponent } from './components/massages/massages.component';
 import { YogaComponent } from './components/yoga/yoga.component';
 import { TarifsComponent } from './components/tarifs/tarifs.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { InscriptionComponent } from './components/inscription/inscription.component';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { ContactComponent } from './components/contact/contact.component';
     YogaComponent,
     TarifsComponent,
     ContactComponent,
+    InscriptionComponent,
   ],
   exports: [],
   imports: [BrowserModule, CommonModule, RouterModule.forRoot(routes)],

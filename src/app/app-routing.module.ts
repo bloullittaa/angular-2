@@ -17,6 +17,8 @@ import { TarifsComponent } from './components/tarifs/tarifs.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { RegisterComponent } from './components/auth/register/register.component';
+// import { LogoutComponent } from './components/auth/logout;
+import { InscriptionComponent } from './components/inscription/inscription.component';
 
 
 export const routes: Routes = [
@@ -35,6 +37,7 @@ export const routes: Routes = [
   { path: 'contact', component: ContactComponent, pathMatch: 'full' },
   { path: 'massages', component: MassagesComponent, pathMatch: 'full' },
   { path: 'yoga', component: YogaComponent, pathMatch: 'full' },
+  { path: 'inscription', component:InscriptionComponent, pathMatch: 'full' },
   { path: '**', component: HomeComponent },
 ];
 @NgModule({

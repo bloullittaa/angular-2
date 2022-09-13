@@ -1,5 +1,5 @@
 .vertical-center {
-  background-image: url('../../../assets/images/ohm.png');
+  background-image: url('../../../assets/images/salleMassage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 600px;
@@ -8,16 +8,21 @@
   font-size: 25px;
   line-height: 2.5em;
   margin: auto;
-
+font-weight: bolder;
+font-family: 'papyrus';
 
 }
-
+h3,h5 {
+color: rgb(37, 39, 39);
+font-weight: bolder ;
+}
 .text {
   padding-top: 15px;
 }
 
 #flip-scale-up-hor {
   width: 150px;
+
   border-radius: 50%;
   -webkit-animation: flip-scale-up-hor 0.5s linear both;
   animation: flip-scale-up-hor 0.5s linear both;
