@@ -1,3 +1,9 @@
+h3 {
+  margin-top: 45px;
+  text-align: center;
+  width: auto;
+  font-family: "papyrus";
+}
 @media (max-width: 700px) {
 
   #map {
@@ -10,4 +16,11 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  h3 {
+    margin-top: 35px;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+  }
+
 }

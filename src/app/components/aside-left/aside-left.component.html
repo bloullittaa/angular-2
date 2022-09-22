@@ -1,11 +1,15 @@
 <div class="vertical-center">
-  <p class="text">
-    Téléphone : 06 21 57 12 21 <br />
-    Adresse : 22 rue Mermoz <br />
-    81600 Gaillac.
-  </p>
-  <h3>Email<br></h3>
-  <a href="mailto:hathayoga88@gmail.com"
-    ><img id="flip-scale-up-hor" src="../../../assets/images/email.png" alt=""
-  /></a>
+<h2>Contactez-moi</h2>
+
+  <form action="aside-left.component.php" method="post">
+        Email <br>
+       <input class="mail " type="text" name="mail" required placeholder="Votre Email" value="" />
+        <br />
+        Sujet: <br> <input class="subject" type="text" name="sujet" placeholder="sujet du message" value="" />
+        <br />
+
+        <textarea class="message" name="message" placeholder="Votre message" cols="25" rows="5"></textarea>
+        <br />
+        <input class="valider" type="submit" name="envoyer" value="Envoyer" />
+      </form>
 </div>

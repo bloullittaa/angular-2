@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 600px;
-  height: 450px;
+  height: 790px;
   text-align: center;
   font-size: 25px;
   line-height: 2.5em;
@@ -16,63 +16,11 @@ h3,h5 {
 color: rgb(37, 39, 39);
 font-weight: bolder ;
 }
-.text {
-  padding-top: 15px;
+.message
+{
+margin-top: 25px;
 }
-
-#flip-scale-up-hor {
-  width: 150px;
-
-  border-radius: 50%;
-  -webkit-animation: flip-scale-up-hor 0.5s linear both;
-  animation: flip-scale-up-hor 0.5s linear both;
-  animation-iteration-count: 2;
-}
-
-@-webkit-keyframes flip-scale-up-hor {
-  0% {
-    -webkit-transform: scale(1) rotateX(0);
-    transform: scale(1) rotateX(0);
-  }
-
-  50% {
-    -webkit-transform: scale(2.5) rotateX(-90deg);
-    transform: scale(2.5) rotateX(-90deg);
-  }
-
-  100% {
-    -webkit-transform: scale(1) rotateX(180deg);
-    transform: scale(1) rotateX(180deg);
-  }
-}
-
-@keyframes flip-scale-up-hor {
-  0% {
-    -webkit-transform: scale(1) rotateX(0);
-    transform: scale(1) rotateX(0);
-  }
-
-  50% {
-    -webkit-transform: scale(2.5) rotateX(90deg);
-    transform: scale(2.5) rotateX(90deg);
-  }
-
-  100% {
-    -webkit-transform: scale(1) rotateX(360deg);
-    transform: scale(1) rotateX(360deg);
-  }
-}
-
-@media (max-width: 700px) {
-  .vertical-center {
-    width: 350px;
-    height: 350px;
-    margin: auto;
-    font-size: 20px;
-    line-height: 2.5em;
-  }
-
-  #flip-scale-up-hor {
-    width: 120px;
-  }
+h2
+{
+padding-top: 20px;
 }
